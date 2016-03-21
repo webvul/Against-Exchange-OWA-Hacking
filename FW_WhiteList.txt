@@ -1,0 +1,8 @@
+# Every line is a regular expression/C# engine
+# Add |supper at the end means supper whitelist, will not be blocked ever
+192\.168\.100\.100|supper
+# Add |Timeout:30 means the IP should on be blocked in 30 minutes, or change to 40 minutes if needed
+192\.168\.100\.101|Timeout:40
+
+# below is an example commented means treat all IPs matched 10 is supper, like 10.90.x.x/192.100.x.x cause they all matched "10"
+#10|supper
