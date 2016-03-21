@@ -3,6 +3,7 @@
 Read first,
 You can adjust thresholds in the script, too strict values could cause wrong blocking impact normal use.
 If you want remove some IP from block, you can remove the rule from windows firewall, or, add the ip address to FW_WhiteList.txt as |supper format temporaily, see FW_WhiteList.txt for more.
+Deploy this script on every CAS serving internet
 
 # How to use
 1 This is a script to protect your AD passwords from hacking over Exchange OWA
